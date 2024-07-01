@@ -3,15 +3,15 @@ A utility to measure how long a CLI program takes to be interactive.
 ![Timing the Node.js based commitizen client](meta/time.gif)
 
 ## Installation
-#### From Binary
-Download and extract the appropriate binary for your platform from the [releases page](https://github.com/JosephNaberhaus/cli-tti/releases). Place the executable within your PATH variable.
+### From source (recommended)
+With v1.21 or greater of [Golang](https://go.dev/) you can easily install from source:
 
-### From Source
-Download the repository via Git or as a Zip. Then run:
+```shell
+go install github.com/JosephNaberhaus/cli-tti@latest
 ```
-go build
-```
-Then place the built executable within your PATH variable.
+
+### From binary
+Download and extract the appropriate binary for your platform from the [releases page](https://github.com/JosephNaberhaus/cli-tti/releases).
 
 ## Usage
 ```
